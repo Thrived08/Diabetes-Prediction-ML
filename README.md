@@ -64,6 +64,19 @@ The project follows these steps:
 
 ---
 
+## Data Preprocessing
+
+The following preprocessing techniques were applied:
+
+- Handling missing values
+- Feature engineering using derived attributes:
+  - BMI Categories
+  - Insulin Categories
+- Encoding categorical features using One-Hot Encoding
+- Feature scaling using StandardScaler
+
+---
+
 ## Machine Learning Models Used
 
 The following classification algorithms were implemented:
@@ -85,9 +98,9 @@ Models were evaluated using:
 
 ---
 
-## Results
+# Results
 
-### Logistic Regression Performance
+## Logistic Regression Performance
 
 | Metric | Score |
 |--------|-------|
@@ -98,11 +111,13 @@ Models were evaluated using:
 
 ---
 
-## Project Structure
-Diabetes-Prediction-ML/
-│
-├── Diabetes_Prediction.ipynb
-├── diabetes.csv
-├── README.md
-└── requirements.txt
+## Naive Bayes Performance
 
+| Metric | Score |
+|--------|-------|
+| Accuracy | 88.31% |
+| Precision | 77.00% |
+| Recall | 87.00% |
+| F1 Score | 82.00% |
+
+### Detailed Classification Report
